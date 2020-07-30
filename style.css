@@ -66,7 +66,9 @@ button#change {
 .github-img {
   height: 50px;
 }
-
+#text {
+  position: relative;
+}
 .hidden {
   opacity: 0;
 }
@@ -85,6 +87,7 @@ button#change {
   right: 0;
   margin: auto;
   margin-bottom: 325px;
+  width: 100%;
 }
 .console-underscore {
   display: inline-block;
