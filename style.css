@@ -50,66 +50,25 @@ button#change {
 }
 
 #logo {
-  position: absolute;
-  top: 5%;
-  left: 5%;
+  width: 100%;
+  height: auto;
 }
 
 .logo-img {
-  height: 50px;
+  width: 100%;
+  height: auto;
 }
 #github {
-  position: absolute;
-  top: 5%;
-  right: 5%;
+  text-align: center;
+  width: 100%;
+  height: auto;
 }
-.github-img {
-  height: 50px;
-}
+
 #text {
   position: relative;
 }
-.hidden {
-  opacity: 0;
-}
-.console-container {
-  font-family: Khula;
-  font-size: 4em;
+h2 {
   text-align: center;
-  height: 200px;
-  width: 600px;
-  display: block;
-  position: absolute;
-  color: white;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin-bottom: 325px;
-  width: 100%;
-}
-.console-underscore {
-  display: inline-block;
-  position: relative;
-  top: -0.14em;
-  left: 10px;
-}
-@media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
-  #somethingorother {
-    width: 120px;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  #somethingorother {
-    width: 320px;
-  }
-}
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
-  #somethingorother {
-    width: 480px;
-  }
+  text-transform: uppercase;
+  font-size: 40px;
 }
